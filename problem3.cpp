@@ -23,4 +23,6 @@ int main(){
     // calculate and display how many purchase citrus flavored drinks (52% of total)
     int citrusFlavor = customers * 0.52;
     cout << "Customers who purchase citrus flavored energy drinks: " << citrusFlavor << endl;
+
+    return 0;
 }
