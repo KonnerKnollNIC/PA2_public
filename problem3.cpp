@@ -20,8 +20,8 @@ int main(){
     int oneOrMore = customers * 0.18;
     cout << "Customers who purchase one or more energy drinks per week: " << oneOrMore << endl;
 
-    // calculate and display how many purchase citrus flavored drinks (52% of total)
-    int citrusFlavor = customers * 0.52;
+    // calculate and display how many purchase citrus flavored drinks (52% of people who purchase 1+ drinks per week)
+    int citrusFlavor = oneOrMore * 0.52;
     cout << "Customers who purchase citrus flavored energy drinks: " << citrusFlavor << endl;
 
     return 0;
