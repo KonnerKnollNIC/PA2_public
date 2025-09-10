@@ -18,9 +18,10 @@ int main(){
     double length = 100;
     double squareFeetPerGallon = 340;
     double numCoats = 2; // number of coats of paint
+    double numSides = 2; // number of sides on the fence
 
     // Calculating gallons needed and displaying to console
-    int gallons = numCoats * height * length / squareFeetPerGallon;
+    int gallons = numCoats * height * length * numSides / squareFeetPerGallon;
     cout << "Gallons needed: " << gallons << endl;
 
     return 0;
